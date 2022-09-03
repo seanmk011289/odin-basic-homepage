@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Basic Landingn Page</title>
   </head>
   <body>
-    <div class="maxWidth">
-      <section class="heroSection">
+    <section class="heroSection">
+      <div class="maxWidth">
         <header>
           <div class="logo">Header Logo</div>
           <nav>
@@ -29,12 +35,14 @@
             </p>
             <button>Sign Up</button>
           </div>
-          <div class="heroImage">
-            <img src="" alt="placeholder image" />
+          <div class="heroImage flex">
+            <img src="./images/placeholder.png" alt="placeholder image" />
           </div>
         </div>
-      </section>
-      <section class="columnSection">
+      </div>
+    </section>
+    <section class="columnSection">
+      <div class="maxWidth">
         <h2>Some random information</h2>
         <div class="columnContainer">
           <div class="column">
@@ -54,29 +62,35 @@
             <p>this is some subtext under an illustration or image</p>
           </div>
         </div>
-      </section>
-      <section class="testimonialSection">
+      </div>
+    </section>
+    <section class="testimonialSection">
+      <div class="maxWidth">
         <h3>
           This is an inspiring quote or testimonial from a customer. Maybe it's
           just filling up space or maybe people will actually real it. Who
           knows? All I know is that it looks nice.
         </h3>
         <h5>- Thor, God of Thunder</h5>
-      </section>
-      <section class="ctaSection">
-        <div class="ctaContent">
-          <h5>Call to action! It's time!</h5>
-          <p>
-            Sign up for our product by clicking that button right over there
-          </p>
+      </div>
+    </section>
+    <section class="ctaSection">
+      <div class="maxWidth">
+        <div class="ctaContainer">
+          <div class="ctaContent">
+            <h5>Call to action! It's time!</h5>
+            <p>
+              Sign up for our product by clicking that button right over there
+            </p>
+          </div>
+          <div class="ctaButton">
+            <button>Sign Up</button>
+          </div>
         </div>
-        <div class="ctaButton">
-          <button>Sign Up</button>
-        </div>
-      </section>
-      <footer>
-        <p>Copyright The Odin Project 2021</p>
-      </footer>
-    </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright The Odin Project 2021</p>
+    </footer>
   </body>
 </html>
